@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felisia Aprila's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Felisia <span>Aprila</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm Felisia <span>Aprila 535250190</span></h1>
+            <h3 class="text-animation">I'm Informatics Engineering Student <span></span></h3>
+            <p>Hi, I'm Felisia Aprila, a third-semester student at Tarumanagara University. I'm interested in the field of technology. During my studies, I have learned web programming, databases, data structures, and various technology development concepts.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+           <img src="images.png" alt="Foto Felisia Aprila">
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2014 - 2019</div>
+                <div class="timeline-content">
+                    <h3>Sekolah Dasar</h3>
+                    <p>Menyelesaikan pendidikan tingkat SD.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2019 - 2021</div>
+                <div class="timeline-content">
+                    <h3>Sekolah Menengah Pertama</h3>
+                    <p>Menyelesaikan pendidikan tingkat SMP.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2022 - 2025</div>
+                <div class="timeline-content">
+                    <h3>Sekolah Menengah Atas</h3>
+                    <p>Menyelesaikan pendidikan tingkat SMA.</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                    <h3>Kuliah</h3>
+                    <p>Sedang menempuh pendidikan S1 Teknik Informatika.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Skills</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Machine Learning</h4>
+                    <p>Mempelajari konsep machine learning seperti regresi linear, data preprocessing, dan analisis data.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Data Analytics</h4>
+                    <p>Mengolah dan menganalisis data untuk memperoleh informasi yang bermanfaat.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Front-End Programming</h4>
+                    <p>Membuat tampilan website menggunakan HTML, CSS, dan JavaScript dasar.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Database</h4>
+                    <p>Mempelajari pengelolaan database menggunakan MySQL dan konsep basis data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-box">
+            <h2 class="heading">Portfolios</h2>
+            <div class="wrapper">
+                <div class="portfolio-item">
+                    <img src="logos/To-Do-List.png" alt="">
+                    <h2>To-Do-List Website</h2>
+                    <p>Website To-Do List menggunakan HTML, CSS, dan JavaScript yang dapat menambah, menghapus, dan menandai tugas.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Reward System Laravel.png" alt="">
+                    <h2>Reward System Laravel</h2>
+                    <p>System reward kedai minuman menggunakan Laravel dan MySQL.</p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="logos/Graph Social.png" alt="">
+                    <h2>Graph Social Media</h2>
+                    <p>Implementasi struktur data graph pada sistem pertemanan media sosial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" id="name" placeholder="Your Name"/>
+                    <input 
+                    type="email" 
+                    name="email" 
+                    id="email" 
+                    placeholder="Your Email"
+                    />
+                </div>
+                <div class="input-box">
+                    <input type="number" 
+                    name="number" 
+                    id="number" 
+                    placeholder="Your Number"
+                    />
+                    <input 
+                    type="text" 
+                    name="subject" 
+                    id="subject" 
+                    placeholder="Your Subject"
+                    />
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea 
+                name="message" 
+                id="message" 
+                placeholder="Your Message" 
+                cols="30" 
+                rows="10"
+                ></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+        <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Portfolio</a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2026 Felisia Aprila 535250190</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
